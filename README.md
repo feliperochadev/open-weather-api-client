@@ -16,19 +16,10 @@ Java Rest Client for https://openweathermap.org/
 # cURL requests
 * get weather:
 `curl -X GET \
-  http://localhost:8080/weather/Berlin \
-  -H 'api-version: 1.0' \
-  -H 'cache-control: no-cache' \
-  -H 'postman-token: 43c21231-ff87-5e69-6624-e1d4e443b908'`
+  http://localhost:8080/weather/Berlin`
 * get weather forecast for 5 days:
 `curl -X GET \
-  http://localhost:8080/weather/rome/forecast \
-  -H 'api-version: 1.0' \
-  -H 'cache-control: no-cache' \
-  -H 'postman-token: 00a5d546-3f51-c7c2-ce91-98194cdfaa35'`
+  http://localhost:8080/weather/rome/forecast`
 * get weather info for the 3 cities:
 `curl -X GET \
-  http://localhost:8080/weather/cities \
-  -H 'api-version: 1.0' \
-  -H 'cache-control: no-cache' \
-  -H 'postman-token: 718812a7-c040-0d80-8fb5-f09b1a315f11'`
+  http://localhost:8080/weather/cities`
